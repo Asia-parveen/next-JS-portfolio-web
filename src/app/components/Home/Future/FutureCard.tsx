@@ -10,7 +10,7 @@ interface Props {
   num: string;
 }
 
-const FutureCard = ({ title, subtitle, hours, bg, num }: Props) => {
+const FutureCard = ({ title,subtitle, hours, bg, num }: Props) => {
   const scaleUp = num === '2' ? "scale-100 z-[10] lg:scale-110" : "scale-100";
 
   return (
@@ -18,7 +18,7 @@ const FutureCard = ({ title, subtitle, hours, bg, num }: Props) => {
       <div className={`p-6 rounded-t-lg ${bg}`}>
         <h1 className='text-white text-[25px]'>{title}</h1>
         <p className='text-[16px] text-[#d7d7d7]'>
-           Future {title} plan and more<span className='text-blue-600'>grow</span>{" "}
+           Future {subtitle} plan and more<span className='text-blue-600'>grow</span>{" "}
         </p>
         <div className='flex justify-center items-end mt-[1rem] space-x-1'>
           <h1 className='text-[35px] font-semibold text-[#212529]'>{hours}</h1>

@@ -22,7 +22,7 @@ const AboutMe = () => {
         />
          <AboutInfoBox 
         text1="Address : Pakistan" 
-        text2="Ph : +923059989157"
+        text2=" Experts : Frameworks"
         />
          <AboutInfoBox 
         text1="Language : English/Urdu" 

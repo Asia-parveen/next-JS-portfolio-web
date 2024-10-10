@@ -17,22 +17,22 @@ const Nav = ({ openNav }:Props) => {
         </div>
         <ul className="lg:flex hidden text-white items-center space-x-6 xl:space-x-10">
           <li className="navlink">
-          <a href="#Home">Home</a>
+          <Link href="#Home">Home</Link>
           </li>
           <li className="navlink">
-          <a href="#About">About</a>
+          <Link href="#About">About</Link>
           </li>
           <li className="navlink">
-          <a href="#Services">Services</a>
+          <Link href="#Services">Services</Link>
           </li>
           <li className="navlink">
-          <a href="#Skills">Skills</a>
+          <Link href="#Skills">Skills</Link>
           </li>
           <li className="navlink">
-          <a href="#Project">Project</a>
+          <Link href="#Project">Project</Link>
           </li>
           <li className="navlink">
-          <a href="#Contact">Contact</a>
+          <Link href="#Contact">Contact</Link>
           </li>
         </ul>
         {/* download manu */}

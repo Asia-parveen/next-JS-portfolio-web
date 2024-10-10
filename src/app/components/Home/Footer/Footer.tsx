@@ -1,6 +1,7 @@
-import Link from 'next/link';
+
 import React from 'react'
 import { BiEnvelope, BiMapPin, BiPhone } from 'react-icons/bi';
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -19,11 +20,11 @@ const Footer = () => {
          {/* links part */}
          <div className='md:mx-auto'>
           <h1 className='text-white font-semibold mb-[1.4rem] text-[17px] '>Quick Links</h1>
-          <p className='text-white text-[15px] opacity-80 mb-[1rem] cursor-pointer hover:text-yellow-300'><a href="#About">About</a></p>
-          <p className='text-white text-[15px] opacity-80 mb-[1rem] cursor-pointer hover:text-yellow-300'><a href="#Services">Services</a></p>
+          <p className='text-white text-[15px] opacity-80 mb-[1rem] cursor-pointer hover:text-yellow-300'><Link href="#About">About</Link></p>
+          <p className='text-white text-[15px] opacity-80 mb-[1rem] cursor-pointer hover:text-yellow-300'><Link href="#Services">Services</Link></p>
        
-          <p className='text-white text-[15px] opacity-80 mb-[1rem] cursor-pointer hover:text-yellow-300'><a href="#Projects">Projects</a></p>
-          <p className='text-white text-[15px] opacity-80 mb-[1rem] cursor-pointer hover:text-yellow-300'><a href="#Contacts">Contacts</a></p>k
+          <p className='text-white text-[15px] opacity-80 mb-[1rem] cursor-pointer hover:text-yellow-300'><Link href="#Project">Projects</Link></p>
+          <p className='text-white text-[15px] opacity-80 mb-[1rem] cursor-pointer hover:text-yellow-300'><Link href="#Contact">Contacts</Link></p>
          </div>
          <div className='lg:mx-auto'>
          <h1 className='text-white font-semibold mb-[1.4rem] text-[17px] '>Address</h1>
@@ -43,7 +44,7 @@ const Footer = () => {
          
       </div>
       <div className='mt-[1.4rem] w-[80%] mx-auto text-white opacity-70'>
-        &#169; Asia Parveen copyright webdev worries 2024
+         Asia Parveen copyright webdev worries 2024
       </div>
      
     </div>
