@@ -13,8 +13,8 @@ const Footer = () => {
           As<span className="text-[#E487FF]">i</span>a Pa
           <span className="text-[#E487FF]">rv</span>een
         </div>
-        <h1 className='text-[14px] mt-[0.5rem] text-white opacity-70'>Crafted with passion and dedication."
-        "Empowering ideas, one line of code at a time.</h1>
+        <h1 className='text-[14px] mt-[0.5rem] text-white opacity-70'>Crafted with passion and dedication. &quot;Empowering ideas, one line of code at a time.&quot;</h1>
+
         <p className='mt-[1.3rem] text-yellow-400 underline font-semibold'>beautyhealthytips177@gmail.com</p>
         </div> 
          {/* links part */}
@@ -44,7 +44,7 @@ const Footer = () => {
          
       </div>
       <div className='mt-[1.4rem] w-[80%] mx-auto text-white opacity-70'>
-         Asia Parveen copyright webdev worries 2024
+        &#169; Asia Parveen copyright webdev worries 2024
       </div>
      
     </div>
