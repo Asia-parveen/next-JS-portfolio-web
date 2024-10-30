@@ -6,7 +6,7 @@ import Image from "next/image"
 const AboutMe = () => {
   return (
     <div className='mt-[5rem] mb-[3rem]'id="About">
-        <Heading headingPrimary="Driven to build innovative web solutions." headingSub="About Me"/>
+        <Heading headingPrimary="Driven to build innovative web solutions." headingSub="Who i Am"/>
 
         <div className='w-[80%] mt-[5rem] md:mt-[3rem] mx-auto grid grid-cols-1 xl:grid-cols-2 items-center gap-[4rem]'>
             {/* here is my personal information */}

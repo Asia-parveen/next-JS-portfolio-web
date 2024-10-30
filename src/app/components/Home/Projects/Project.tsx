@@ -40,7 +40,7 @@ const Project = () => {
           </div>
           </Link>
         </div>
-        <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="400">
+        <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="300">
         <Link href="https://asia-parveen.github.io/post-Application/">
           {/* image */}
           <div className='transform cursor-pointer hover:translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px] rounded-lg'>
@@ -54,7 +54,7 @@ const Project = () => {
           </div>
           </Link>
         </div>
-        <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="600">
+        <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="500">
         <Link href="https://asia-parveen.github.io/calculator-made-project/">
           {/* image */}
           <div className='transform cursor-pointer hover:translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px] rounded-lg'>
@@ -68,7 +68,7 @@ const Project = () => {
           </div>
           </Link>
         </div>
-        <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="800">
+        <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="700">
         <Link href="https://asia-parveen.github.io/bulb-on-off-projrct/">
           {/* image */}
           <div className='transform cursor-pointer hover:translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px] rounded-lg'>
@@ -82,7 +82,7 @@ const Project = () => {
           </div>
           </Link>
         </div>
-        <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="1000">
+        <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="900">
         <Link href="https://asia-parveen.github.io/signup-login-form/">
           {/* image */}
           <div className='transform cursor-pointer hover:translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px] rounded-lg'>

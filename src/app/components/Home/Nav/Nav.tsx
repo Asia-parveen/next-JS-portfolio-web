@@ -20,7 +20,7 @@ const Nav = ({ openNav }:Props) => {
           <Link href="#Home">Home</Link>
           </li>
           <li className="navlink">
-          <Link href="#About">About</Link>
+          <Link href="/about">About</Link>
           </li>
           <li className="navlink">
           <Link href="#Services">Services</Link>
@@ -32,7 +32,7 @@ const Nav = ({ openNav }:Props) => {
           <Link href="#Project">Project</Link>
           </li>
           <li className="navlink">
-          <Link href="#Contact">Contact</Link>
+          <Link href="/contact">Contact</Link>
           </li>
         </ul>
         {/* download manu */}
