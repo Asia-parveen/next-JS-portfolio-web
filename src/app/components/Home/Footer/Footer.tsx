@@ -20,7 +20,7 @@ const Footer = () => {
          {/* links part */}
          <div className='md:mx-auto'>
           <h1 className='text-white font-semibold mb-[1.4rem] text-[17px] '>Quick Links</h1>
-          <p className='text-white text-[15px] opacity-80 mb-[1rem] cursor-pointer hover:text-yellow-300'><Link href="#About">About</Link></p>
+          <p className='text-white text-[15px] opacity-80 mb-[1rem] cursor-pointer hover:text-yellow-300'><Link href="/about">About</Link></p>
           <p className='text-white text-[15px] opacity-80 mb-[1rem] cursor-pointer hover:text-yellow-300'><Link href="#Services">Services</Link></p>
        
           <p className='text-white text-[15px] opacity-80 mb-[1rem] cursor-pointer hover:text-yellow-300'><Link href="#Project">Projects</Link></p>
