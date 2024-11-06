@@ -1,4 +1,7 @@
 
+
+
+
 "use client";
 import { useState, ChangeEvent, FormEvent } from 'react';
 
@@ -39,7 +42,7 @@ const ContactForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="max-w-2xl mx-auto p-4 border rounded w-full">
+    <form onClick={handleSubmit} className="max-w-2xl mx-auto p-4 border rounded w-full">
       {error && <p className="text-red-500">{error}</p>}
       {successMessage && <p className="text-yellow-500">{successMessage}</p>}
 
