@@ -12,7 +12,7 @@ const Hero = () => {
             className="mx-auto w-[300px] h-[300px] md:w-[300px] md:h-[300px]  xl:w-[380px] xl:h-[380px]"
           >
             <Image
-              src="/images/avtor1.jpg"
+              src="/images/avtr.png"
               alt="Hero"
               width={300}
               height={300}
