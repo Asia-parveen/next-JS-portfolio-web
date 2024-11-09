@@ -22,19 +22,19 @@ const MobileNav = ({closeNav,showNav}:Prop) => {
         <Link href= "#">Home</Link>
       </li>
       <li className='navlink text-[25px] sm:text-[30px]'>
-        <Link href= "#">About</Link>
+        <Link href="/about">About</Link>
       </li>
       <li className='navlink text-[25px] sm:text-[30px]'>
-        <Link href= "#">Services</Link>
+        <Link href= "#Services">Services</Link>
       </li>
       <li className='navlink text-[25px] sm:text-[30px]'>
-        <Link href= "#">Portfolio</Link>
+        <Link href= "#Portfolio">Portfolio</Link>
       </li>
       <li className='navlink text-[25px] sm:text-[30px]'>
-        <Link href= "#">Skills</Link>
+        <Link href= "#Skills">Skills</Link>
       </li>
       <li className='navlink text-[25px] sm:text-[30px]'>
-        <Link href= "#">Contact</Link>
+        <Link href="/contact">Contact</Link>
       </li>
       <ImCross 
       onClick={closeNav}
